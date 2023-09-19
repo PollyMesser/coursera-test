@@ -11,5 +11,9 @@
 <?php
 echo "Hello World!";
 ?>
+
+<p style="text-align: center;"
+    onclick="alert('E-Mailing us is useless');">Tech Support: yeah.right@server-is-down
+</p>
 </body>
 </html>
