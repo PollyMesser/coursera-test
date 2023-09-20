@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model</title>
     <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
         body {
+            background-color: gray;
             #box {
                 background-color: blue;
+                padding: 10px;
+                border: 5px solid black;
+                width: 300px;
+                height: 50px;
+                margin-top: 50px;
+                overflow: auto;
             }
             #content {
                 background-color: #90EE90; /*green*/
@@ -21,9 +33,14 @@
 <body>
     <h1>Box Model</h1>
     <div id="box">
-        <div id="content">Lorem ipsum dolor sit amet, sonsectaetur 
-            adipisicing elit.
+        <div id="content">Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Rerum nam quos 
+            deleniti ad quis incidunt tenetur pariatur 
+            reiciendis dolore odio, impedit cupiditate 
+            magnam, consectetur nihil similique 
+            fugit eius sint tempora.
         </div>
     </div>
+    
 </body>
 </html>
