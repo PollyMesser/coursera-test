@@ -9,10 +9,13 @@
         /*************** Base Styles ***************/
         * {
             box-sizing: border-box;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
         }
         h1 {
             margin-bottom: 15px;
             text-align: center;
+            font-size: 1.75em;
         }
         section {
             color: purple;
@@ -20,28 +23,42 @@
   
         .rightTop {
             position: relative;
-            top: -5px;
-            right: -5px;
+            top: -1px;
+            right: -1px;
             float: right;
             text-align: center;
-            border: 3px solid black;
+            border: 1px solid black;
             width: 120px;
             height: 50px;
+            font-size: 1.25em;
+            font-weight: bold;
         }
 
         .leftBottom {
-            padding-left: 5px;;
+            padding-left: 10px;;
             padding-bottom: 0%;
-            padding-right: 20%;
-            padding-Top: 50px;;
+            padding-right: 10px;
+            padding-Top: 40px;;
             width:100%;
         }
         .mitte {
-            border: 5px solid black;
+            border: 1px solid black;
             background-color: lightpink;
             margin: 5px;
 
         }     
+
+        .frischeFisch {
+            background-color: palegoldenrod;
+        }
+
+        .alteSocke {
+            background-color: palegreen;
+        }
+
+        .nixNeues {
+            background-color: paleturquoise;
+        }
         /* Simple Responsive Framework. */
         .row {
             width: 100%;
@@ -145,13 +162,14 @@
 
         <div class="col-lg-4 col-md-6">
             <div class="mitte">
-                <div class="rightTop">
+                <div class="frischeFisch rightTop">
                     <p>Frische Fisch</p>
                 </div>
                 <div class="leftBottom">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
-                            elit. In illum ratione minus repudiandae? Distinctio, eaque dolores. Tempora, illum 
-                            dicta dolores impedit eos culpa, sint explicabo vero ad officia architecto quo.
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Reiciendis harum maxime sed fuga assumenda doloribus. Non eos sapiente 
+                        cumque! Nulla, animi voluptatibus at facilis unde 
+                        dolore debitis eos blanditiis necessitatibus.
                     </p>
                 </div>
             </div>
@@ -159,13 +177,15 @@
 
         <div class="col-lg-4 col-md-6">
             <div class="mitte">
-                <div class="rightTop">
+                <div class="alteSocke rightTop">
                     <p>Alte Socke</p>
                 </div>
                 <div class="leftBottom">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
-                            elit. In illum ratione minus repudiandae? Distinctio, eaque dolores. Tempora, illum 
-                            dicta dolores impedit eos culpa, sint explicabo vero ad officia architecto quo.
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Mollitia atque at optio! Eveniet, laborum 
+                        magni inventore non reiciendis sed, perferendis 
+                        odit minus alias vero nesciunt temporibus nulla 
+                        impedit, sunt optio.
                     </p>
                 </div>
             </div>
@@ -173,8 +193,8 @@
 
         <div class="col-lg-4 col-md-12">
             <div class="mitte">
-                <div class="rightTop">
-                    <p>Frische Fisch</p>
+                <div class="nixNeues rightTop">
+                    <p>Nix Neues</p>
                 </div>
                 <div class="leftBottom">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
