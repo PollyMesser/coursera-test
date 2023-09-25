@@ -1,0 +1,93 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    padding: 15px;
+}
+
+#logo-img { 
+    background: url("../images/liu_logo.png" ) no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0px;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 { /*restaurant name*/
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: .75;
+}
+
+.navbar-brand a {
+    text-decoration-line: none;
+}
+
+.navbar-brand p {/*kosher cert*/
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span {/*von pixabay*/
+    vertical-align: middle;
+}
+
+/*
+.container-fluid {
+    border: 1px solid black; 
+}*/
+
+
+
+#nav-list {
+    margin-top: 10px;
+
+    margin-left: 35%;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div {
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+}
