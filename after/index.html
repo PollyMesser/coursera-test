@@ -15,36 +15,41 @@
     <header>
         <nav id="header-nav" class="navbar navbar-expand-md">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="../after/images/liu_logo.png" alt="Liu Logo" width="150px" 
-                    height="150px" class="d-inline-block d-none d-md-block">
-                </a>
+                <div class="navbar-header">
 
-                <div id="textfeld" class="navbar-brand"><H1>Bootstrap</H1>
-                <img src="../after/images/vintage.png" alt="kleines Beispielbild"> ein Versuch
+                  <a class="navbar-brand d-inline-block d-none d-md-block float-start" href="index.html">
+                    <div id="logo-img" class="mt-2 me-3"></div>
+                  </a>
+
+
+                  <div id="textfeld" class="navbar-brand mt-2">
+                    <a href="index.html"><h1>Bootstrap</h1></a>
+                    <p>
+                      <img src="../after/images/vintage.png" alt="bild"><span> ein Versuch</span>
+                    </p>
+                  </div>
+
+                  <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse float-lg-end" id="navbarNavAltMarkup">
+                    <div id="nav-list" class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="index.html">
+                        <img src="../after/icons/heart-fill.svg" alt="Homebutton"><br class="d-none d-md-block"> Home</a>
+                      <a class="nav-link" href="#"><img src="../after/icons/yin-yang.svg" alt="Homebutton"><br class="d-none d-md-block"> Features</a>
+                      <a class="nav-link" href="#"><img src="../after/icons/currency-dollar.svg" alt="Homebutton"><br class="d-none d-md-block"> Pricing</a>
+                      <a id="phone" class="nav-link d-none d-md-block" href="tel:410-602-5008">
+                        <span>410-602-5008</span><div>* We Deliver</div></a>
+                    </div>
+                  </div>
+
                 </div>
-
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div id="nav-list" class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="index.html">
-                    <img src="../after/icons/heart-fill.svg" alt="Homebutton"><br class="d-none d-md-block"> Home</a>
-                  <a class="nav-link" href="#"><img src="../after/icons/yin-yang.svg" alt="Homebutton"><br class="d-none d-md-block"> Features</a>
-                  <a class="nav-link" href="#"><img src="../after/icons/currency-dollar.svg" alt="Homebutton"><br class="d-none d-md-block"> Pricing</a>
-                  <a id="phone" class="nav-link d-none d-md-block" href="tel:410-602-5008">
-                    <span>410-602-5008</span><div>* We Deliver</div></a>
-                </div>
-              </div>
-
             </div>
-          </nav>
+        </nav>
     </header>
-
 
     <p>hello little irgendwas</p>
     <!-- jQuery (Bootstrap JS plugins depend on it)-->

@@ -10,7 +10,6 @@ body {
     background-color: #f6b319;
     border-radius: 0;
     border: 0;
-    padding: 15px;
 }
 
 #logo-img { 
@@ -22,9 +21,14 @@ body {
 
 .navbar-brand {
     padding-top: 25px;
-}
 
-.navbar-brand h1 { /*restaurant name*/
+}
+/*
+#textfeld {
+    margin-top: 10px;
+}*/
+
+.navbar-brand h1 { /*bootstrap*/
     font-family: 'Lora', serif;
     color: #557c3e;
     font-size: 1.5em;
@@ -32,7 +36,7 @@ body {
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 5;
     line-height: .75;
 }
 
@@ -40,7 +44,7 @@ body {
     text-decoration-line: none;
 }
 
-.navbar-brand p {/*kosher cert*/
+.navbar-brand p {/*ein versuch*/
     color: #000;
     text-transform: uppercase;
     font-size: .7em;
@@ -51,17 +55,9 @@ body {
     vertical-align: middle;
 }
 
-/*
-.container-fluid {
-    border: 1px solid black; 
-}*/
-
-
-
 #nav-list {
     margin-top: 10px;
 
-    margin-left: 35%;
 }
 
 #nav-list a {
@@ -90,4 +86,44 @@ body {
     color: #557c3e;
     text-align: right;
     padding-right: 15px;
+}
+
+.navbar-header {
+    width: 100%;
+}
+
+.navbar-header button.navbar-toggler {
+    border: 1px solid #61122f;
+    clear: both;
+    margin-top: -30px;
+}
+
+/* end header */
+
+/* large devices only */
+@media (min-width: 1200px) {
+
+}
+
+/* medium devices only */
+@media (min-width: 992px) and (max-width: 1199px) {
+/* header*/
+#logo-img {
+    background: url("../images/logo100.png") no-repeat;
+    width: 100px;
+    height: 100px;
+
+}
+}
+
+/* small devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/* extra small devices only */
+@media (max-width: 767px) {
+    .navbar-header button.navbar-toggler {
+
+    }
 }
